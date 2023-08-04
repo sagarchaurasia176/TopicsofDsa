@@ -1,0 +1,17 @@
+@media screen and (min-width:500px) and (max-width:768px) {
+    button{
+        max-width: 15.5rem;
+        border-radius: 13px;
+    }
+ 
+    .container {
+        max-width: 1300px;
+    }
+    
+    .navbar ul{
+        display: inline-flex;
+    }
+ 
+
+
+}

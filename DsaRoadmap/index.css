@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kaushan+Script&family=Mochiy+Pop+P+One&family=Philosopher&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* 
+
+font-family: 'Josefin Sans', sans-serif; 
+
+*/
+
+:root {
+  --font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  --font-size: 1.1rem;
+  --padding: 1.1rem;
+  --background-color: rgb(229, 229, 232);
+  --flex-wrap: wrap;
+  --display: flex;
+  --color: blue;
+  --cursor: pointer;
+  --width: 19rem;
+  --max-width: 1200px;
+  --height: auto;
+  --border: 2px solid black;
+  --box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+ 
+.container {
+  max-width: 500px;
+  height: auto;
+  padding: var(--padding);
+  margin: 150px auto;
+  border: 3px solid black;
+  border-radius: 12px;
+}
+.logo {
+    margin: 0 auto;
+}
+.logo img {
+max-width: 19rem;
+}
+.navbar {
+  color: var(--color);
+  font-family: var(--font-family);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+ 
+.btn {
+  margin-right: 3rem;
+}
+.navbar ul,
+li a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.navbar ul {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+.footer {
+  max-width: 1300px;
+  background-color: var(--background-color);
+  padding: var(--padding);
+}
+.footer .text-copy {
+  text-align: center;
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+}
+.main-section {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(1,1fr);
+}
+ 
+#app {
+  color: black;
+  font-size: 2.1rem;
+  max-width: 600px;
+  height: 25vh;
+  margin: 50px auto;
+}
+
